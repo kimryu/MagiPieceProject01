@@ -43,8 +43,84 @@
     </Reference>
     <Reference Include="System.Data" />
     <Reference Include="System.Xml" />
+    <Reference Include="UnityEngine, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>.\UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UI, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>.\UnityEngine.UI.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Script\Common\ComponentAccesser.cs" />
+    <Compile Include="Assets\Script\Common\DelegateDef.cs" />
+    <Compile Include="Assets\Script\Common\NotificationObject.cs" />
+    <Compile Include="Assets\Script\Common\Postion.cs" />
+    <Compile Include="Assets\Script\Common\SingletonMonoBehaviourForever.cs" />
+    <Compile Include="Assets\Script\Common\SingletonMonoBehaviourScene.cs" />
+    <Compile Include="Assets\Script\Common\SingletonScene.cs" />
+    <Compile Include="Assets\Script\Common\Vector2I.cs" />
+    <Compile Include="Assets\Script\Dialog\Dialog.cs" />
+    <Compile Include="Assets\Script\Dialog\NormalModalDialog.cs" />
+    <Compile Include="Assets\Script\Dialog\SystemModalDialog.cs" />
+    <Compile Include="Assets\Script\Dialog\TimePauser.cs" />
+    <Compile Include="Assets\Script\Floor\FloorManager.cs" />
+    <Compile Include="Assets\Script\Floor\GridHelper.cs" />
+    <Compile Include="Assets\Script\OneActView\DmgView.cs" />
+    <Compile Include="Assets\Script\OneActView\EffectView.cs" />
+    <Compile Include="Assets\Script\OneActView\FloorNameView.cs" />
+    <Compile Include="Assets\Script\OneActView\OneActView.cs" />
+    <Compile Include="Assets\Script\Room\A_Star.cs" />
+    <Compile Include="Assets\Script\Room\EventPart.cs" />
+    <Compile Include="Assets\Script\Room\RoomCamera.cs" />
+    <Compile Include="Assets\Script\Room\RoomClickEvent.cs" />
+    <Compile Include="Assets\Script\Room\RoomFootEvent.cs" />
+    <Compile Include="Assets\Script\Room\RoomGrids.cs" />
+    <Compile Include="Assets\Script\Room\RoomManager.cs" />
+    <Compile Include="Assets\Script\Room\RoomObject.cs" />
+    <Compile Include="Assets\Script\Room\RoomPlayer.cs" />
+    <Compile Include="Assets\Script\Sound\Sound.cs" />
+    <Compile Include="Assets\Script\SQM\MessageInfo.cs" />
+    <Compile Include="Assets\Script\SQM\MessageType.cs" />
+    <Compile Include="Assets\Script\SQM\SequenceManager.cs" />
+    <Compile Include="Assets\Script\SQM\SQID.cs" />
+    <Compile Include="Assets\Script\Srio\CommandChangeScene.cs" />
+    <Compile Include="Assets\Script\Srio\CommandController.cs" />
+    <Compile Include="Assets\Script\Srio\CommandJampNextScenario.cs" />
+    <Compile Include="Assets\Script\Srio\CommandUpdateImage.cs" />
+    <Compile Include="Assets\Script\Srio\ICommand.cs" />
+    <Compile Include="Assets\Script\Srio\Layer.cs" />
+    <Compile Include="Assets\Script\Srio\ScenarioManager.cs" />
+    <Compile Include="Assets\Script\Srio\TextController.cs" />
+    <Compile Include="Assets\Script\Srio\TextureresourceManager.cs" />
+    <Compile Include="Assets\Script\TaskControl\PanelControl.cs" />
+    <Compile Include="Assets\Script\TaskControl\PlyUnitControl.cs" />
+    <Compile Include="Assets\Script\TaskControl\SetObjectControl.cs" />
+    <Compile Include="Assets\Script\TaskControl\TablePeaceControl.cs" />
+    <Compile Include="Assets\Script\TaskControl\TaskControl.cs" />
+    <Compile Include="Assets\Script\TaskControl\UIControl.cs" />
+    <Compile Include="Assets\Script\TaskControl\UnitControl.cs" />
+    <Compile Include="Assets\Script\TaskData\EnmData.cs" />
+    <Compile Include="Assets\Script\TaskData\FloorObjectData.cs" />
+    <Compile Include="Assets\Script\TaskData\GridData.cs" />
+    <Compile Include="Assets\Script\TaskData\IHideableData.cs" />
+    <Compile Include="Assets\Script\TaskData\MagiPeaceData.cs" />
+    <Compile Include="Assets\Script\TaskData\NanatoData.cs" />
+    <Compile Include="Assets\Script\TaskData\PanelData.cs" />
+    <Compile Include="Assets\Script\TaskData\PlyData.cs" />
+    <Compile Include="Assets\Script\TaskData\ProducerData.cs" />
+    <Compile Include="Assets\Script\TaskData\SetObjectData.cs" />
+    <Compile Include="Assets\Script\TaskData\TaskData.cs" />
+    <Compile Include="Assets\Script\TaskData\UIData.cs" />
+    <Compile Include="Assets\Script\Title\TitleManager.cs" />
+    <Compile Include="Assets\Script\TouchHandler\TouchControl.cs" />
+    <Compile Include="Assets\Script\TouchHandler\TouchHandler.cs" />
+    <Compile Include="Assets\Script\TraceControl\ArrowTraceControl.cs" />
+    <Compile Include="Assets\Script\TraceControl\GridEffectTraceContraol.cs" />
+    <Compile Include="Assets\Script\TraceControl\StateBarTraceControl.cs" />
+    <Compile Include="Assets\Script\TraceControl\TraceControl.cs" />
+    <Compile Include="Plugins\iTween.cs" />
     <Compile Include="ScriptMakeVS.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
