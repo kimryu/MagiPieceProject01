@@ -9,22 +9,46 @@
 #       /TODO       # ルートディレクトリの TODO ファイルだけを無視し、サブディレクトリの TODO は無視しません
 #       build/      # build/ ディレクトリのすべてのファイルを無視します
 #       doc/*.txt   # doc/notes.txt は無視しますが、doc/server/arch.txt は無視しません
-bin/
-obj/
-**/tags
 
-# Original
-ScriotMakeVS/Assets/
-ScriotMakeVS/Plugins/
+
+# .gitignore ファイル自体は管理したい
+#       ! は、無視の打ち消し、すなわち無視しない
+!.gitignore
+
+# ---------------[ Unity generated ]------------------ #
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+UnityGenerated/
+ProjectSettings/*.asset
+
+# ----[ Visual Studio / MonoDevelop generated ]------- #
+
+ExportedObj/
+*.svd
+*.userprefs
+*.usertasks
+*.csproj
+*.pidb
 *.suo
+*.sln
+*.user
+*.unityproj
+*.booproj
+*.resources
+test-results/
+bin/
 
-# Windows image file caches
-Thumbs.db
+# -------------[ OS generated ]------------------------ #
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Icon?
 ehthumbs.db
-
-# Folder config file
+Thumbs.db
 Desktop.ini
-
 # Recycle Bin used on file shares
 $RECYCLE.BIN/
 
@@ -37,16 +61,10 @@ $RECYCLE.BIN/
 # Windows shortcuts
 *.lnk
 
-#MonoDevelop.gitignore
-#User Specific
-*.userprefs
-*.usertasks
+# -------------[ Build ]------------------------ #
+*.html
+*.unity3d
 
-#Mono Project Files
-*.pidb
-*.resources
-test-results/
-
-# .gitignore ファイル自体は管理したい
-#       ! は、無視の打ち消し、すなわち無視しない
-!.gitignore
+# -------------[ Original]------------------------ # 
+ScriotMakeVS/Assets/
+ScriotMakeVS/Plugins/
